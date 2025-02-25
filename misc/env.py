@@ -13,8 +13,6 @@ class BaseSett(BaseSettings):
     admin_ids: List[int]
     database_url: str
 
-    ref_link: str = "https://xplinks.cc/krgUI"
-
     model_config = SettingsConfigDict(env_file="./misc/.env")
 
 
